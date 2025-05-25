@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+.option{
+width:80%;
+height:1.5cm;
+border:0px solid dodgerblue;
+margin-top:1cm;
+margin-left:10%;
+background-color:tomato;
+border-radius:5px;
+box-shadow:0px 0px 9px 1px grey;
+font-weight:bold;
+color:white;
+
+}
+button{
+width:1.3cm;
+height:1.3cm;
+background:white;
+border:none;
+margin-top:0.1cm;
+margin-left:0.1cm;
+color:dodgerblue;
+font-size:35px;
+font-weight:bold;
+border-radius:5px;
+}#facebook{
+background-color:dodgerblue;
+}
+img{
+width:90%;
+box-shadow:0px 0px 4px 4px grey;}
+</style>
+</head>
+<body>
+
+<center>
+<img src="linkmaker.png"alt="linkmaker"><br><br>
+<p><h1>የፈለጉትን Link(website) ለመስራት ወይም ለማውረድ በአንዱ ይግቡ!</h1></p>
+</center><hr>
+<div onclick="googlehtml()"class="option" id="gmail"><button style="color:tomato;">G</button>
+&nbsp;&nbsp;&nbsp;&nbsp; በGoogle ያውርዱ.
+</div>
+<div onclick="facebookhtml()"class="option" id="facebook"><button>F</button>
+&nbsp;&nbsp;&nbsp;&nbsp;በFacebook ያውርዱ.
+</div>
+<script type="text/javascript">
+function googlehtml(){
+window.location.href="google.html";
+}
+function facebookhtml(){
+window.location.href="facebook.html";
+}
+</script>
+</body>
+</html>
